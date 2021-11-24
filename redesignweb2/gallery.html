@@ -49,19 +49,35 @@
     </div>
 </div>
 <div class="container">
-    <div class="row">
-        <div class="col">
-            <img alt="Picture of many different Fruits" src="pictures/Orange.jpg" style="width: 20%">
-            <img alt="Picture of many different Fruits" src="pictures/Bright-Red-Apple.jpg" style="width: 20%">
+    <div id="gallery" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#gallery" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#gallery" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#gallery" data-bs-slide-to="2"></button>
         </div>
-
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="pictures/Orange.jpg" class="d-block" style="width:50%">
+            </div>
+            <div class="carousel-item">
+                <img src="pictures/mago.jfif" class="d-block" style="width:50%">
+            </div>
+            <div class="carousel-item">
+                <img src="pictures/dd2a5d3c-d358-4579-8ece-59ce1804ab5b_9.0b874251fccc645fd98ac76e797c2d2a.jpeg" class="d-block" style="width:50%">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#gallery" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#gallery" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
     </div>
 </div>
 <div class="container border">
-    <div class="row">
+    <div class="row" style>
         <div class="col"> Copyright 2021 | Web Design | Email
         </div>
-
     </div>
 </div>
 
